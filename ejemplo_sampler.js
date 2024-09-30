@@ -1,6 +1,6 @@
 const sampler = new Tone.Sampler({
     urls: {
-        C4: "beethoven.mp3",  // Archivo de sonido
+        C4: "PlanA.mp3",  // Archivo de sonido
     },
     release: 1,
     baseUrl: "./",  // Asegura que busque el archivo en la misma carpeta
