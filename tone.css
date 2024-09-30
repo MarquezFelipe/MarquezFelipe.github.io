@@ -35,3 +35,30 @@ div {
     border: 1px solid #ba5858;
     
 }
+
+#contenedor {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#contenedor-fila-abajo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#barras {
+  width: 500px; /* Ajusta el tamaño del gráfico */
+  height: 400px;
+}
+
+img {
+  width: 300px; /* Ajusta el tamaño de la imagen */
+  height: 400px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+}
