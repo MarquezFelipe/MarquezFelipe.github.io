@@ -9,7 +9,7 @@ document.body.appendChild(nuevoDiv);
 
 
 var trace1 = {
-    x: ["Adan y Eva", "Tal Vez", "Nena Maldición (feat. Lenny Tavárez)", "Cuando Te Besé", "Te Amo", "Chica Paranormal", "Por Eso Vine", "Plan A"],
+    x: ["Adan y Eva", "Tal Vez", "Nena Maldición", "Cuando Te Besé", "Te Amo", "Chica Paranormal", "Por Eso Vine", "Plan A"],
     y: [951749705, 783042405, 645784654	, 608552565, 498785803, 376295353, 311221308, 290947051],
     type: 'bar'
 };
