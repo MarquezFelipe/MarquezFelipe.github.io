@@ -36,28 +36,39 @@ div {
     
 }
 
-#contenedor {
+/* Estilos para los dos bloques principales */
+#contenedor-principal {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
+  flex-direction: column;
+  gap: 20px;
 }
 
-#contenedor-fila-abajo {
+/* Estilos para la primera fila (imagen y gráfico) */
+#contenedor-arriba {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Estilos para la segunda fila (botón y fecha) */
+#contenedor-abajo {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+/* Estilos del gráfico */
 #barras {
   width: 500px; /* Ajusta el tamaño del gráfico */
   height: 400px;
 }
 
+/* Estilos de la imagen */
 img {
   width: 300px; /* Ajusta el tamaño de la imagen */
   height: 400px;
 }
 
+/* Estilos del botón */
 button {
   padding: 10px;
   font-size: 16px;
