@@ -31,3 +31,7 @@ html, body {
     transform: translateY(2px); /* Mueve el botón hacia abajo al hacer clic */
   }
   
+div {   
+    border: 1px solid #ba5858;
+    
+}
