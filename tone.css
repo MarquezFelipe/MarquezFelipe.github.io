@@ -41,13 +41,14 @@ div {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  align-items: center; /* Centra todo el contenido horizontalmente */
 }
 
 /* Primera fila: imagen y gráfico en una sola línea */
 #contenedor-arriba {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: space-around; /* Distribuye mejor los elementos */
+  width: 100%; /* Ocupa todo el ancho */
 }
 
 /* Segunda fila: botón y fecha en una línea */
@@ -68,6 +69,8 @@ div {
 img {
   width: 300px; /* Ajusta el tamaño de la imagen */
   height: 400px;
+  margin: auto; /* Centra la imagen horizontalmente */
+  display: block;
 }
 
 /* Estilos del botón */
