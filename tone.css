@@ -36,24 +36,26 @@ div {
     
 }
 
-/* Estilos para los dos bloques principales */
+/* Contenedor principal en columna */
 #contenedor-principal {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-/* Estilos para la primera fila (imagen y gráfico) */
+/* Primera fila: imagen y gráfico en una sola línea */
 #contenedor-arriba {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
-/* Estilos para la segunda fila (botón y fecha) */
+/* Segunda fila: botón y fecha en una línea */
 #contenedor-abajo {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%; /* Para que ocupe todo el ancho disponible */
 }
 
 /* Estilos del gráfico */
@@ -72,4 +74,18 @@ img {
 button {
   padding: 10px;
   font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Centrado del contenido dentro de los divs */
+#contenedor-arriba img,
+#contenedor-arriba #barras {
+  display: block;
 }
